@@ -1,0 +1,12 @@
+{application,nitrogen,
+             [{description,"My Nitrogen Web Project"},
+              {vsn,"1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{nitrogen_app,[]}},
+              {env,[]},
+              {modules,[create,dummyPlug,element_logoutButton,index,
+                        interfaceTournoi,interpreteur,login,menu,metierSVG,
+                        mobile,modify,nitrogen_app,nitrogen_cowboy,
+                        nitrogen_sup,representationTournoiSimple,saveManager,
+                        show,svg,tools,tournoiSimple]}]}.
